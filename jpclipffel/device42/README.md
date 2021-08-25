@@ -39,10 +39,11 @@ as `GET`, `POST`, etc.
 
 The module takes 3 parameters:
 
-| Parameter | Type | Values | Description |
-| `meth`    | `string` | HTTP method (`GET`, `POST`, etc.) | HTTP method |
-| `path`    | `string` | `api/{{ version }}/object` | Device42 API path |
-| `data`    | `object` | A JSON-like object | Device42 API data |
+| Parameter | Type     | Values                            | Description       |
+|-----------|----------|-----------------------------------|-------------------|
+| `meth`    | `string` | HTTP method (`GET`, `POST`, etc.) | HTTP method       |
+| `path`    | `string` | `api/{{ version }}/object`        | Device42 API path |
+| `data`    | `object` | A JSON-like object                | Device42 API data |
 
 `data` is properly encoded and formatted depending on the method.
 
