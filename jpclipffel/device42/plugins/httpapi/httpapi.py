@@ -9,9 +9,9 @@ DOCUMENTATION = '''
 author:
     - Jean-Philippe Clipffel (@jpclipffel)
 httpapi : contrail
-short_description: Httpapi Plugin for Juniper Contrail REST API
+short_description: Httpapi Plugin for Device42 REST API
 description:
-  - This httpapi plugin provides methods to connect to Juniper Contrail via REST API
+  - This httpapi plugin provides methods to connect to Device42 via its REST API
 version_added: "3.0"
 '''
 
